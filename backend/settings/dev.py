@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(SETTINGS_DIR)
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'verybadsecret!!!'
+SECRET_KEY = '(yr%he)=x6bvvu-6ulqv9kum=bzf1gez63u1ye53wf#b&7j^w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend.wsgi.application'
+#WSGI_APPLICATION = 'backend.wsgi.application'
 
 
 # Database
@@ -108,8 +108,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-TIME_ZONE = 'UTC'
+LANGUAGE_CODE = 'fi-fi'
+TIME_ZONE = 'EET'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
@@ -135,7 +135,7 @@ STATICFILES_DIRS = []
 ##########
 # STATIC #
 ##########
-
+FILE_CHARSET = 'utf-16'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Insert Whitenoise Middleware at top but below Security Middleware
